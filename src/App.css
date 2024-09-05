@@ -1,0 +1,61 @@
+App{
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 157, 157);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cell-input{
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  text-align: center;
+  padding: 0px;
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+  border: 3px solid brown;
+}
+td{
+  padding: 0px;
+}
+.rBorder{
+  border-bottom: 2px solid black;
+}
+.cBorder{
+  border-right: 2px solid black;
+}
+.btn{
+  margin-top: 15px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+}
+
+.modal{
+  position: fixed;
+  top: 165px;
+  right: 5px;
+  width: 35%;
+  height: 50%;
+  background-color:rgba(0,0,0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content{
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.modal-content button {
+  margin-top: 10px;
+}
